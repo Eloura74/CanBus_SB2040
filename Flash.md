@@ -54,7 +54,8 @@ Quelques remarques/éventuels problèmes (veuillez lire attentivement) :
 5. Débranchez la carte de l'USB et (avec l'imprimante éteinte), branchez la carte au réseau CAN. Allumez l'imprimante. Vous devriez voir la LED gpio24 recommencer à clignoter.
 6. SSH vers l'imprimante.
 ``` 
-cd
+cd ~/klipper
+../klippy-env/bin/python ../klipper/scripts/canbus_query.py can0
 ```
 
 ![image](https://github.com/Eloura74/CanBus_SB2040/blob/main/images/uuid.png)
